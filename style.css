@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080812;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+#heartCanvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pesan {
+  position: fixed;
+  top: 76%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  pointer-events: none;
+}
+
+.pesan h1 {
+  font-size: clamp(28px, 6vw, 48px);
+  color: #ff85ad;
+  text-shadow: 0 0 15px #ff3f91;
+  letter-spacing: 4px;
+}
+
+.pesan p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #ffd6e4;
+  text-shadow: 0 0 8px #ff69a6;
+}
